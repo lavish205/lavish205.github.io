@@ -9,14 +9,19 @@ a:hover {
   color: #444;
 }
 
-
 .cover-heading{
   font-size: 40px;
 }
-
-/*
- * Base structure
- */
+.div-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.img-self{
+  width: 100%;
+  height: inherit;
+}
 
 html,
 body {
@@ -26,7 +31,7 @@ body {
 body {
   color: #444;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
