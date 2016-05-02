@@ -35,6 +35,12 @@
         .media .pull-left {
             width: 25px;
         }
+        .small, small{
+            font-size: 90%;
+        }
+        #resume{
+            padding: 5px;
+        }
         footer{
             margin: 10px;
         }
@@ -42,6 +48,7 @@
     </style>
 </head>
 <body>
+<a href="https://github.com/you"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -65,7 +72,7 @@
                     </a>
                     </li>
                     <li><a target="_blank" href="https://twitter.com/lavish205">
-                        <i class="fa fa-twitter fa-stack-1x" title="Twitter | Lavish Aggarwal"></i>
+                        <i class="fa fa-twitter" title="Twitter | Lavish Aggarwal"></i>
                     </a>
                     </li>
                     <li><a target="_blank" href="https://plus.google.com/u/0/+LavishAggarwalCS/">
@@ -119,7 +126,7 @@
                 </div>
 
                 <div align="left">
-                    <h3 class="text-uppercase">&lt; Professional Experiences &gt;</h3>
+                    <h3 class="text-uppercase">&lt; Professional Experience &gt;</h3>
                     <h4>Zopper.com</h4>
                     <p>
                         <small class="text-primary"><strong>Software Engineer,</strong> Jan 2015 - Oct 2015</small>
@@ -146,7 +153,7 @@
                 </div>
 
                 <div align="left">
-                    <h3 class="text-uppercase">&lt; Open Source Experiences &gt;</h3>
+                    <h3 class="text-uppercase">&lt; Open Source Experience &gt;</h3>
                     <h4>Mozilla</h4>
                     <p>
                         <small class="text-primary"><strong>Mozilla Representative,</strong> Nov 2015 - Present</small>
@@ -247,13 +254,15 @@
                     <div class="pull-left">
                         <span class="fa fa-phone text-primary"></span>
                     </div>
-                    <div class="media-body"><p>+91 852-759-4555</p></div>
+                    <div class="media-body"><a href="tel:+918527594555"><p>+91 852-759-4555</p></a></div>
                 </div>
                 <div class="media">
                     <div class="pull-left">
                         <span class="fa fa-envelope text-primary"></span>
                     </div>
-                    <div class="media-body"><p>lavish307@gmail.com</p></div>
+                    <div class="media-body"><a href="mailto:lavish307@gmail.com">
+                        <p>lavish307@gmail.com</p></a>
+                    </div>
                 </div>
 
                 <div class="media">
@@ -401,8 +410,8 @@
         </div>
         <footer class="text-center">
             <hr>
-            <a class="btn btn-success" href="http://lavishaggarwal.com/resume.pdf">
-                <i align="center" class="fa fa-download fa-2x pull-left" aria-hidden="true"></i> <b>Resume</b>
+            <a class="btn btn-primary" href="http://lavishaggarwal.com/resume.pdf">
+                <i align="center" class="fa fa-download fa-1x pull-left" aria-hidden="true" id="resume"></i> <b>Resume</b>
             </a>
         </footer>
     </div>
