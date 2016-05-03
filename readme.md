@@ -1,26 +1,25 @@
-## Installation
-```bash
-git clone https://github.com/lavish205/portfolio.git
-cd portfolio
-npm install
-```
-## Preview
-
-Run `gulp serve` for preview.
-
-## Build
-
-Running `gulp serve` will also make the minified html in `dist` directory.
+# Portfolio
 
 ## Contributing
 
 All contributions are welcome.
 
-## Support
+### Project setup
+```bash
+$ git clone https://github.com/lavish205/portfolio.git
+$ cd portfolio
+$ npm install
+```
+
+### Preview
+
+Run `gulp serve` for preview.
+
+### Support
 
 If you have any problem or suggestion please open an issue [here](https://github.com/lavish205/portfolio/issues).
 
-## License
+### License
 
 The MIT License
 
