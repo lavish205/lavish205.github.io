@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-1",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^3.0.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavish205/portfolio.git"
+  },
+  "author": "Lavish Aggarwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lavish205/portfolio/issues"
+  },
+  "homepage": "https://github.com/lavish205/portfolio#readme"
+}
