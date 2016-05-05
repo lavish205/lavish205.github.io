@@ -1,8 +1,6 @@
 # Portfolio
 
-## Contributing
 
-All contributions are welcome.
 
 ### Project setup
 ```bash
